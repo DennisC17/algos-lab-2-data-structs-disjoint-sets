@@ -7,6 +7,7 @@
  * You have total freedom over how you wanna implement!
  * That means data structures
  */
+import java.util;
 
 public class DisjointSets {
 
