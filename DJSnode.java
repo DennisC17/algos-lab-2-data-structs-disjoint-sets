@@ -1,4 +1,4 @@
-import java.util;
+import java.util.*;
 
 public class DJSnode{
 
@@ -18,10 +18,6 @@ public class DJSnode{
       return false;
   }
 
-  void setParent(String p){
-    parent = p;
-  }
-
   String getName(){
     return name;
   }
@@ -38,7 +34,7 @@ public class DJSnode{
     parent = p;
   }
 
-  Int getRank(){
+  int getRank(){
     return rank;
   }
 
